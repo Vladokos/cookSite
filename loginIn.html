@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="second">
     <header class="header">
       <div class="container">
         <div class="header__inner">
@@ -26,7 +26,10 @@
               <li><a href="#">Форум</a></li>
               <li>
                 <a href="#"
-                  ><img src="./img/icons/userPage.png" alt="user_page" srcset=""
+                  ><img
+                    src="./img/icons/userPage.png"
+                    alt="user_page"
+                    srcset=""
                 /></a>
               </li>
             </ul>
@@ -37,33 +40,32 @@
         </div>
       </div>
     </header>
-    <div class="tagline">
+    <div class="loginForm">
       <div class="container">
-        <div class="tagline__inner">
-          <div class="tagline-title">
-            Начните Готовить <span>Вместе</span> с популярными рецептами!
+        <div class="loginForm__inner">
+          <div class="loginForm-title">Вход</div>
+          <div class="dataUser">
+            <input type="text" class="login" placeholder="Логин" />
+            <input type="text" class="password" placeholder="пароль" />
           </div>
-          <div class="tagline-subtitle">БЫСТРО, ВКУСНО И ПРОСТО</div>
-          <div class="btn">
-            <button class="start">Начать</button>
-            <button class="loginIn">Войти</button>
+          <div class="manipnData">
+            <div class="remember">
+              <div class="roundSquare">
+                <input type="checkbox" class="rememberUser" />
+              </div>
+              Запомнить меня
+            </div>
+            <div class="forget">Забыли пароль?</div>
           </div>
+          <button class="enter-btn">Войти</button>
+          <!-- <div class="remember">
+            <input type="checkbox" class="rememberUser" />
+            Запомнить меня
+          </div>
+          <div class="forget">Забыли пароль?</div>
+          <button class="enter-btn">Войти</button>
+          <div class="reg">Еще нет аккаунта? Зарегистрироваться</div> -->
         </div>
-      </div>
-    </div>
-    <div class="firstRecipe">
-      <div class="container">
-        <a href="./second.html">
-          <div class="recipe">
-            <div class="dishName">
-              <img src="./img/pankeiks.png" alt="" />
-              <div class="title-recipe">Панкейки</div>
-            </div>
-            <div class="ingredients">
-              Соль, Яйцо, Мука, Сахар, Молоко, Разрыхлитель, Растительное Масло.
-            </div>
-          </div>
-        </a>
       </div>
     </div>
   </body>

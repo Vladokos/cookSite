@@ -1,0 +1,249 @@
+.second,
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../img/background/food.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.second {
+  background-image: url(../img/background/bg.jpg);
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header {
+  padding-top: 10px;
+}
+.header__inner {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+}
+.logo {
+  font-size: 26px;
+  font-weight: 900;
+}
+.logo span {
+  color: #ff0001;
+}
+.nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+.nav ul li {
+  color: #000000;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.search input {
+  padding: 10px 0px 9px 36px;
+  border-radius: 15px;
+  border-color: #fff;
+  background-color: #fff;
+  border: 0;
+  background-image: url(../img/icons/search.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  font-size: 18px;
+  color: #000000;
+}
+.search img {
+  position: absolute;
+  top: 18px;
+  right: 46.7em;
+}
+.tagline {
+  margin-top: 87px;
+}
+.tagline-title {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 65px;
+  width: 530px;
+}
+.tagline-title span {
+  color: #e50001;
+}
+.tagline-subtitle {
+  font-weight: normal;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 30px;
+  color: #e50001;
+  margin-top: 19px;
+}
+.btn {
+  margin-top: 28px;
+}
+.start {
+  padding: 11px 41px;
+  background: #e50001;
+  border-radius: 15px;
+  border: 0;
+  color: #f3f2ff;
+  font-size: 24px;
+  line-height: 28px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.loginIn {
+  border: 2px solid #e50001;
+  background-color: #fff0;
+  border-radius: 15px;
+  color: #e50001;
+  font-size: 26px;
+  line-height: 30px;
+  padding: 8px 42px;
+  cursor: pointer;
+}
+
+.firstRecipe {
+  margin: 96px 0 0 190px;
+}
+.recipe {
+  background-color: #f3f2ff;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 285px;
+  height: 200px;
+}
+.dishName {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  align-items: center;
+  padding-top: 9px;
+}
+.dishName img {
+  margin: 0 auto;
+}
+.title-recipe {
+  padding-left: 13px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.ingredients {
+  padding: 16px 0 20px 0;
+  margin: 0 auto;
+  width: 235px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #85a1ad;
+}
+/* second page */
+.sections {
+  margin-top: 35px;
+}
+.sections-nav {
+  font-size: 18px;
+  line-height: 21px;
+}
+.sections-nav::after {
+  content: "";
+  width: 1000px;
+  height: 4px;
+  background-color: #85a1ad;
+  position: absolute;
+  left: 410px;
+  top: 121px;
+  border-radius: 15px;
+}
+.sections-nav ul {
+  display: grid;
+  grid-template-columns: repeat(8, 125px);
+  text-align: center;
+}
+.dishes {
+  margin-top: 60px;
+}
+.dishes-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.dishe-item {
+  margin: 0 30px 90px 0;
+  background: #f3f2ff;
+  border-radius: 15px;
+  width: 350px;
+  height: 312px;
+}
+.dishe-logo {
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+  transform: translateY(-107px) translateX(109px);
+}
+.dishe-logo img {
+  width: 125px;
+  height: 122px;
+}
+.name {
+  margin-top: 61.58px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.name div {
+  font-size: 16px;
+  height: 27px;
+}
+
+.someInform {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-rows: 1fr;
+  color: #85a1ad;
+  font-weight: bold;
+  text-align: center;
+}
+.kcalPerGram {
+  grid-column: 2/3;
+  font-size: 18px;
+  line-height: 21px;
+  display: grid;
+  grid-template-columns: 0.7fr 3fr;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 5px;
+}
+.kcalPerGram img {
+  width: 18px;
+  height: 29px;
+  justify-self: end;
+}
+.cookingTime {
+  grid-row: 2;
+  font-size: 12px;
+  line-height: 14px;
+  display: grid;
+  grid-template-columns: 0.7fr 3fr;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 5px;
+}
+.portions {
+  font-size: 12px;
+  line-height: 14px;
+  grid-column-start: 3;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 0.7fr 3fr;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 5px;
+}

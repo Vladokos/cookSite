@@ -46,15 +46,15 @@
       <div class="container">
         <div class="sections__inner">
           <nav class="sections-nav">
-            <ul>
-              <li>Завтраки</li>
-              <li>Закуски</li>
-              <li>Салаты</li>
-              <li>Супы</li>
-              <li>Гарниры</li>
-              <li>Десерты</li>
-              <li>Выпечка</li>
-              <li>Напитки</li>
+            <ul id="dishesList">
+              <li id="breakfast">Завтраки</li>
+              <li id="snacks">Закуски</li>
+              <li id="salads">Салаты</li>
+              <li id="soups">Супы</li>
+              <li id="garnishes">Гарниры</li>
+              <li id="desserts">Десерты</li>
+              <li id="bakeries">Выпечка</li>
+              <li id="drinks">Напитки</li>
             </ul>
           </nav>
         </div>
@@ -64,7 +64,7 @@
       <div class="container">
         <div class="dishes__inner">
           <div class="dishes-items">
-            <div class="dishe-item">
+            <div class="dishe-item" name="breakfast">
               <div class="dishe-item__inner">
                 <a href="./pankeiks.html">
                   <div class="dishe-logo">
@@ -82,7 +82,7 @@
                 </a>
               </div>
             </div>
-            <div class="dishe-item">
+            <div class="dishe-item" name="salads">
               <div class="dishe-item__inner">
                 <a href="./salad.html">
                   <div class="dishe-logo">
@@ -100,7 +100,7 @@
                 </a>
               </div>
             </div>
-            <div class="dishe-item">
+            <div class="dishe-item" name="desserts">
               <div class="dishe-item__inner">
                 <a href="./biscuit.html">
                   <div class="dishe-logo">
@@ -118,7 +118,7 @@
                 </a>
               </div>
             </div>
-            <div class="dishe-item">
+            <div class="dishe-item" name="soups">
               <div class="dishe-item__inner">
                 <a href="./soup.html">
                   <div class="dishe-logo">
@@ -152,7 +152,7 @@
                 </div>
               </div>
             </div>
-            <div class="dishe-item">
+            <div class="dishe-item" name="garnishes">
               <div class="dishe-item__inner">
                 <a href="./paste.html">
                   <div class="dishe-logo">
@@ -174,5 +174,6 @@
         </div>
       </div>
     </div>
+    <script src="./js/foodSorting.js"></script>
   </body>
 </html>

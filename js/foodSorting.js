@@ -1,4 +1,3 @@
-// const breakfast = document.getElementById("breakfast");
 const disheItems = document.getElementsByClassName("dishe-item");
 const dishesList = document.getElementById("dishesList");
 
